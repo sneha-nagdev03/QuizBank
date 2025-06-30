@@ -1,0 +1,16 @@
+div{
+    border:2px solid purple;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    flex-basis: 45%;
+    flex-grow: 1;
+    flex-shrink:1 ;
+     /* flex: 35% 1;  shorhand property for flex-grow, flex-shrink,flex-basis */ 
+}

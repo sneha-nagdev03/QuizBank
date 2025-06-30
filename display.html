@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        p{
+            border:2px solid purple;
+        }
+        div{
+            border:2px solid brown;
+            margin-bottom: 10px;
+        }
+        .div1 p{
+            display: block;
+        }
+        .div2 p{
+            display: inline;
+            width:100px;
+        }
+        .div3 p{
+            display: inline-block;
+            width:200px;
+        }
+        .div4 p {
+            display: none;
+        }
+        .div5 p {
+            display: list-item;
+            margin-left:30px;
+            list-style-type: decimal-leading-zero;
+        }
+        .div6 p {
+            display: table;
+        }
+        .div7 p{
+            display: inline-table;
+        }
+        .div8 p{
+            display: contents;
+        }
+        .div9 p{
+            display: run-in;
+        }
+        p{
+            display: inline-block;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Dissplay</h1>
+    <p>Display is a purely CSS property. use to decirbe the display/look/visiblitiy of webpage</p>
+    <pre>
+        synatx: 
+            tagname{
+                display: none | block | inline | inline-block | run-in | contents | 
+                table | grid | inline-grid | inline-table | list-item | flex | inline-flex;
+            }
+    </pre>
+    <p>Block means : will occupy the whole screen  and inline means will occupy the size of data.</p>
+    <hr>
+    <div class = div1>
+        hi 
+        <p>Hello</p>
+        Bye
+    </div>
+    <div class = div2>
+        hi 
+        <p>Hello</p>
+        Bye
+    </div>
+    <div class = div3>
+        hi 
+        <p>Hello</p>
+        Bye
+    </div>
+    <div class = div4>
+        hi 
+        <p>Hello</p>
+        Bye
+    </div>
+    <div class = div5>
+        hi 
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+
+        Bye
+    </div>
+    <div class = div6>
+        hi 
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        Bye
+    </div>
+    <div class = div7>
+        hi 
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        Bye
+    </div>
+    <div class = div8>
+        hi 
+        <p>Hello</p>
+        Bye
+    </div>
+    <div class = div9>
+        hi 
+        <p>Hello</p>
+        Bye
+    </div>
+</body>
+</html>
